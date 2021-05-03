@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4-Aula10</title>
+    <style>
+        h1{
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <h1>Comparação de Idade)</h1>
+
+    <form id="registro">
+        
+        <label>Nome</label>
+        <input type="text" name="nome" id="nome" >
+
+        <label>Idade</label>
+        <input type="number" name="idade" id="idade">
+            
+        <button id="boton" type="submit" onclick="capturado();">Registrar</button>
+    </form>
+
+    <div  class="registroPessoas">
+        <h2>Pessoas Registradas</h2>
+
+        <table id="listaPessoas">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <p id="pessoaMaior" ></p>
+
+    <script src="main.js"></script>
+</body>
+</html>
